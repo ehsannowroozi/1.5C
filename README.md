@@ -10,9 +10,9 @@ If you are using this software, please cite from [Arxiv](https://dblp.uni-trier.
 
 ### Training 1.5C
 
-1. Choice of Feature set,
+#### 1. Choice of Feature set,
    
-With regard to the choice of the feature set, the features have to be powerful enough to capture the different types of 
+   With regard to the choice of the feature set, the features have to be powerful enough to capture the different types of 
 dependencies among neighboring pixels in the pristine and manipulated images. Also, we want to keep the dimensionality of
 the feature set limited, so to make it possible to design the intermediate and combination classifiers as SVMs, without
 resorting to more complicated architecture such as ensemble classifiers. Specifically, we selected the [Subtractive Pixel
