@@ -6,7 +6,24 @@ Author:  Ehsan Nowroozi (Ehsan.Nowroozi65@gmail.com)
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-If you are using this software, please cite from [Arxiv](https://dblp.uni-trier.de/rec/bibtex/journals/corr/abs-1902-08446).
+If you are using this software, please cite from [Arxiv](https://dblp.uni-trier.de/rec/bibtex/journals/corr/abs-1902-08446). Also, you can find this paper in the journal Springer-Multimedia Tools and Applications.
+
+### Training 1.5C
+
+1. Choice of Feature set,
+   
+With regard to the choice of the feature set, the features have to be powerful enough to capture the different types of 
+dependencies among neighboring pixels in the pristine and manipulated images. Also, we want to keep the dimensionality of
+the feature set limited, so to make it possible to design the intermediate and combination classifiers as SVMs, without
+resorting to more complicated architecture such as ensemble classifiers. Specifically, we selected the [Subtractive Pixel
+Adjacency Model (SPAM)](http://dde.binghamton.edu/download/feature_extractors/download/spam686.m) feature set, which extensively used in image forensic applications. In Fact, SPAM features are designed for grayscale images; when working with color images, they can be extracted from the luminance channel. You can find the whole code in the folder "FeatureComputation". Also, You need to run only the code "FeatureComputation.m"
+
+Please see the section of 3.2 regarding implementation of 1.5C and Choice of the Feature Set.
+
+
+
+
+
 
 
 ## Welcome to GitHub Pages
