@@ -22,44 +22,13 @@ Please see the section of 3.2 regarding implementation of 1.5C and Choice of the
 
 Two class of features which computed in the previous section trained in this section thourgh the "Train_2C.m" which called 2C.
 
+#### 3. Train 1C-Class-Classification (1C),
 
+Regarding the 1C SVM first we need to find the nu and gamma hyper-parameter. Hence, we find the hyper-parameters in the code "SVM_1C_Pristine_HyperParam.m" for 1C pristine and "SVM_1C_Manipulated_HyperParam.m" for 1C Manipulated. Our approach it is same as a grid search which we use for 2C classifier. After finding the hyper parameter the Train code call two parameters nu
+and gamma for training.
 
+1C_Pristine: "SVM_1C_Pristine_HyperParam.m" for finding nu and gamma, "Train_SVM_1C_Pristine.m" train 1C pristine with hyper parameters.
+   
+1C_Manipulated: "SVM_1C_Manipulated_HyperParam.m" for finding nu and gamma, "Train_SVM_1C_Manipulated.m" train 1C manipulated with hyper parameters.
 
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/ehsannowroozi/1.5C/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ehsannowroozi/1.5C/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Please see the section of 3.3 regarding how to train the 1.5C Classifier and for hyper-parameter please see the section of 5.1 in the paper.
