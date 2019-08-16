@@ -32,3 +32,9 @@ and gamma for training.
 1C_Manipulated: "SVM_1C_Manipulated_HyperParam.m" for finding nu and gamma, "Train_SVM_1C_Manipulated.m" train 1C manipulated with hyper parameters.
 
 Please see the section of 3.3 regarding how to train the 1.5C Classifier and for hyper-parameter please see the section of 5.1 in the paper.
+
+#### 4. Combination of Classifiers (1.5C),
+
+Same as (3) we find the hyper-parameters first from d1, d2, and d3. Afterward, the d1, d2 and d3 will be trained with hyper-parameters nu and gamma.
+
+
