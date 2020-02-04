@@ -1,4 +1,4 @@
-## Improving the Security of Image Manipulation Detection through One-and-a-half-class Multiple Classification
+## [Improving the Security of Image Manipulation Detection through One-and-a-half-class Multiple Classification](https://link.springer.com/article/10.1007%2Fs11042-019-08425-z)
 
 2018-2019 Department of Information Engineering and Mathematics, University of Siena, Italy.
 
